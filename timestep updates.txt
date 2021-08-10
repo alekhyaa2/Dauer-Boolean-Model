@@ -7,7 +7,7 @@ mode = synchronous
 outputs a cycle of length 4 starting at index 0. 
  image -- 
  
-we get a similar result when the initial conditions are changed to either false or random values. 
+we get a similar result when the initial conditions are changed to either false or random values (for both nodes and also in the case where we set one node to specific value T/F and other random) 
 
 Case 2:
 
