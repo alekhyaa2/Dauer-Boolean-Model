@@ -36,4 +36,16 @@ together regulate daf-16 or can individually cause effects to the state of daf-1
 For example - ifta-2, ftt-2, swi-snf, are positively regulating daf-16. So should they work together or individually? 
 similarly for negative regulators - rle-1, hlh-30, par-5 ??
 should these nodes be grouped and connected by different connectors (And/or) ??
+ifta-2,ftt-2 has to be 0 for daf-16 to be 0 
+swi-snf is required for daf-16 functions like dauer formation. So, swi-snf needs to be 0 for daf-16 to be 0. 
+daf-18 should be 1 to rescue from dauer. 
+also check daf-18 and daf-2
+
+even with ftt- = ifta-2 = swi-snf = false and pheromone = false and daf-18 = true, dauer = 1. 
+
+from the small simulations we ran, we know for sure that the system needs initial conditions to allow it to converge to a specific node. with random conditions, system always converges to dauer. 
+
+
+
+
 
