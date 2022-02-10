@@ -14,3 +14,4 @@ To convert a text file to graphml file and open it with cytoscape. Input the dau
 
 2. Finding cycles
 
+https://github.com/ialbert/booleannet - running simulations using booleannet software
