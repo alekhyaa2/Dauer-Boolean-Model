@@ -1,4 +1,4 @@
-# 1. Simulations
+## 1. Simulations
 
 File: simulation.ipynb 
 Scripts: Boolean2 
