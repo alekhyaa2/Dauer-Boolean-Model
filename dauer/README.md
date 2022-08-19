@@ -1,32 +1,20 @@
-# Scripts
-
-print_states.ipynb -> Running simulations for systems exhibits wild type and daf-c/daf-d mutant phenotypes. 
-                      Saving states of each node in stead state of teh system in every simulation. 
-                      
-dauer_stable motifs.ipynb -> Identify the attractors, stable motifs, and driver nodes of the dauer network. 
-
 ## 1. Simulations
 
-File: simulation.ipynb\
-Scripts: Boolean2 
-         https://github.com/ialbert/booleannet.git
+File: print_states.ipynb
 
-Notes: simulate the system under favourable (cmk-1=1, pher=0) and unfavourable (cmk-1=0, pher=1) conditions using asynchronous update. Perform perturbation experiments to emulate daf-c and daf-d mutants. Plot graphs using seaborn to look at the simulation trajectories in different simulation settings. 
+simulate the system under favourable (cmk-1=1, ncr=1, pher=0) and unfavourable (cmk-1=0, ncr=0, pher=1) conditions using asynchronous update. Perform perturbation experiments to emulate daf-c and daf-d mutant conditions. 
 
 
 ## 2. Stable motif Analysis
 
-File: dauer_stable motifs.ipynb\
-Scripts: pystablemotifs
-         https://github.com/jcrozum/pystablemotifs.git
+File: Stablemotifs.ipynb
 
-Notes: Extract attractors and stable motifs. Identify driver nodes for a specific target to control the attarctors. 
+Extract attractors and stable motifs. Identify driver nodes for a specific target to control the attractors. 
 
 
 ## 3. Logic backbone
 
-File: network_red.ipynb\
-Scripts: https://github.com/parulm/suff_necc.git
+File: logic_bb.ipynb
 
-Notes: Useful to convert text file to graphml file. 
+Identify subgraphs from signals to motif nodes and motif nodes to output nodes. Generating reduced boolean model by assigning causal logic to the edges. 
 
